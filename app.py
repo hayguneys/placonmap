@@ -50,7 +50,7 @@ if os.path.exists(MAP_FILE):
     with open(MAP_FILE, "r", encoding="utf-8") as f:
         html_content = f.read()
 
-    st.components.v1.html(html_content, height=650, scrolling=False)
+    st.components.v1.html(html_content, height=1250, scrolling=False)
 
 else:
     st.error(
